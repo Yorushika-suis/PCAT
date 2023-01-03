@@ -1,0 +1,5 @@
+PROGRAM IS
+    VAR B : REAL := 0.0; 
+    VAR C : INTEGER := 0.0; 
+BEGIN 
+END;

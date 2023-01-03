@@ -1,0 +1,9 @@
+bison -o yacc.c -d PCAT.y
+
+flex -o lex.c lexer.lex
+
+g++ -c yacc.c
+
+g++ main.cpp yacc.o -o main
+
+./main ./tests/case_0.pcat

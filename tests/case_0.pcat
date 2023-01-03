@@ -1,0 +1,4 @@
+PROGRAM IS
+BEGIN 
+    RETURN 2 * 2 * 3;
+END;
